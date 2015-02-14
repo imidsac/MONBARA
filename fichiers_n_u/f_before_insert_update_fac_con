@@ -1,0 +1,7 @@
+declare
+r record;
+begin
+   select into r prix_vente from articles where id_ar=NEW.id_ar;
+   NEW.montant=r.prix_vente*NEW.qte_ar;
+   return NEW;
+end;

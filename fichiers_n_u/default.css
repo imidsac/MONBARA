@@ -1,0 +1,209 @@
+
+
+body {
+	/*background: #AFB3A5;*/
+	background: #94d6ec;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: justify;
+	color: #222;
+	
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	color: white;
+}
+.bw {border:1px solid white;}
+.header2 {background: #4da2be url(images2/ui-bg_highlight-hard_65_4da2be_1x100.png) 50% 50% repeat-x;}
+.header3 {background: #6cbfda url(images2/ui-bg_glass_75_6cbfda_1x400.png) 50% 50% repeat-x;}
+/* Header */
+
+#header {
+	/*width: 700px;*/
+	/*width: 1400px;*/
+	width: 99%;
+	height: 95px;
+	top: 2px;
+	position: fixed;
+	-moz-border-radius: 4px;
+	/*margin: 0 auto;
+	padding: 0 auto;
+	border: 10px solid #FFFFFF;
+	border-bottom: none;
+	background: red;*/
+	/*background: #6cbfda url(images2/ui-bg_glass_75_6cbfda_1x400.png)  10% repeat-x; font-weight: normal; color: #114b5f; */
+	background: #4da2be url(images2/ui-bg_highlight-hard_65_4da2be_1x100.png) 50% 50% repeat-y;
+}
+
+#idtitre {
+	/*width: 700px;*/
+	/*width: 1400px;*/
+	width: 180px;
+	height: 25px;
+	top: 10px;
+	right: 15px;
+	position: fixed;
+}
+
+#header h1 {
+	float: left;
+	margin: 20px 0 0 20px;
+	/*font-size: 50px;*/
+	font-size: 3em;
+	
+/*	letter-spacing: -7px;*/
+	letter-spacing: -1px;
+	color: #323B2E;
+}
+
+#header h2 {
+	float: right;
+	margin: 40px 20px 0 0;
+	font-size: 18px;
+	letter-spacing: -2px;
+}
+
+
+a {
+	color: #323B2E;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #555E4F;
+	text-decoration: none;
+}
+
+/* Menu */
+
+#menu1 {
+	float: left;
+	width: 100%;
+	/*width: 160px;*/
+	margin: 0px auto;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: #323B2E;
+}
+
+#menu1 ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+#menu1 li {
+}
+
+#menu1 a {
+	display: block;
+	width: 100%;
+	padding: 15px 0px;
+	background-color: #4da2be;
+	/*border-top: 1px solid #fff;*/
+	border-top: none;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu1 a:hover {
+	background-color: #fff;
+	/*border-top: 1px solid #555E4F;*/
+	border-bottom: 1px solid #4da2be;
+	color: #4da2be;
+	font-size: 18px;
+}
+
+/* Content */
+
+#content {
+	/*width: 700px;*/
+	/*width: 1400px;*/
+	width: 99%;
+	position: fixed;
+	overflow: auto;
+	bottom: 23px;
+	top: 100px;
+/*	margin: 0 auto;
+	border: 10px solid #FFFFFF;
+	border-top: none;*/
+	background: #94d6ec;
+	
+}
+
+#colOne {
+	/*float: left;
+	width: 120px;
+	/*width: auto;
+	margin-top: 20px;
+	padding: 0 10px 0 20px;*/
+	width: 18%;
+	position: fixed;
+	overflow: auto;
+	bottom: 23px;
+	top: 100px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	background: #4da2be url(images2/ui-bg_highlight-hard_65_4da2be_1x100.pn) 50% 50% repeat-x;
+	left: 10px;
+}
+
+#colTwo {
+	/*float: right;
+	margin-top: 20px;
+	width: 1260px;
+	/*width: auto;
+	/*width: 440px;
+	padding: 0 20px 0 20px;*/
+	width: 80%;
+	position: fixed;
+	bottom: 23px;
+	top: 100px;
+	background: #6cbfda url(images2/ui-bg_inset-hard_75_6cbfda_1x100.pn) 50% 50% repeat-x;
+	right: 10px;
+	overflow: auto;
+}
+
+#content h2 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+
+
+#footer {
+	width: 99%;
+	height: 20px;
+	bottom: 1px;
+	
+	position: fixed;
+	-moz-border-radius: 4px;
+	background: #4da2be url(images2/ui-bg_highlight-hard_65_4da2be_1x100.png) 50% 50% repeat-x;
+	/*margin: 0 auto;*/
+	/*padding-top: 20px;*/
+}
+
+
+#footer p {
+	text-align: center;
+	padding: 0;
+	font-size: 14px;
+	margin-top:  1px;
+	color: white;
+}
+#myb{ padding: .1em 0.9em; font:"Optima";font-size: 14px;color:#fff !important; border:none !important;}
+#myb:hover{ padding: .3em 1.0em; font:"Optima";font-size: 14px;color:#000 !important;cursor:pointer;}
+.lcentre { text-align: center}
+.lgauche { text-align: left;}
+.ldroite {text-align: right;}
+.cbleu {color: blue;font-weight: bold;}
+.crouge{color: red;font-weight: bold;}
+.cnoire{color: black;font-weight: bold;}
+.error{font-weight: bold;color: red;font-size: 12px;line-height: 16px;padding-top: 10px;padding-bottom: 10px;}

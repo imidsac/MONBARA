@@ -1,0 +1,6 @@
+-------------------------pour la calcul de credit--------------------------------------------
+SELECT client,sum(payee) as spayee, count(*) as nvisite  from facture  where extract(month from date_fac)=12 group by client having count(client)>5;
+
+
+---pour la calcule de l'article vendu--------------------------------
+SELECT id_ar,lib_ar, count(*) as nar,f.prix_vente*count(*) as montant from facture_con as f join articles using(id_ar) where id_fac in (select id_fac from facture where extract(year from date_fac)=f_annee() and extract(month from date_fac)=12 and extract(day from date_fac) between 1 and 7) and etat <>'n' group by id_ar, lib_ar, f.prix_vente order by nar desc;
